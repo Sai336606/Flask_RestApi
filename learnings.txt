@@ -1,0 +1,30 @@
+1) # Dividing the project into model, controler format and database connection and doing crud   operations.  
+
+2) Json format for data transfer {payload:"DAta"}
+
+3) make responce code() method and Http request code. 
+200 for sucessful 
+202 accepted 
+204 no content 
+
+
+4) CORS Policy ------>>> HTTP Response Headers (Access-Control-Allow-Origin)
+
+5) patch operation 
+
+6) Pagenation using RestApi  
+pagenation formula = 
+(page_number * Records_u_want_to_show or [limit]) - Records_u_want_to_show or[limit]
+
+7) uploading a file and saving it in particular folder and updating the db with filepath 
+
+  + creating unique name for the uploded_file using datetime module 
+
+  + Now concating the unique_file name with extension and giving path to store it in particular folder 
+
+  + saving the file
+
+  + Displaying or reading the uploaded file using api
+
+
+8) Learnt JWT TOKEN but did not implement the token
